@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Radiomics.Net">
+      <HintPath>..\bin\Debug\net6.0\Radiomics.Net.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\MathNet.Numerics\MathNet.Numerics.csproj" />
+  </ItemGroup>
+
+</Project>
