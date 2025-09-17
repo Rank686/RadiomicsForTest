@@ -5,3 +5,5 @@
 /.vs
 /obj
 /Test/obj
+/MathNet.Numerics/obj
+/Radiomics.Net.Tests/obj
